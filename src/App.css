@@ -1,17 +1,66 @@
-.App {
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #74b9ff, #dfe6e9);
+  color: #2d3436;
   text-align: center;
-  font-family: Arial, sans-serif;
 }
 
-.weather-info {
-  margin-top: 20px;
+header {
+  padding: 20px;
 }
 
 input {
-  margin-right: 10px;
-  padding: 5px;
+  padding: 10px;
+  font-size: 16px;
 }
 
 button {
-  padding: 5px 10px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.forecast-card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
 }
